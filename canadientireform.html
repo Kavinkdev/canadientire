@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="canadien tire.css">
+        <script>
+            function ans()
+            {
+                var a= document.getElementById("num").value 
+                if (a<=100 && a>=1) {
+
+                    alert("signed in succesfully")
+                    sub.disabled=false
+
+                    
+                } else {
+                    alert("please enter a valid number")
+
+                    
+                }
+
+
+            }
+
+
+        </script>
+
+        
+     
+
+    </head>
+    <body style="background-size: cover; text-align: center; font-size: 20px;">
+        <div class=" title">
+            <img  style="float: left;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdbZ5sHWx0SvRdIFNyFxDrZgZTNkYAzkcOZ45Mwx-g5DRXTXHxlSZsL23JjFoQhvbmsuw&usqp=CAU" alt="" height="200px">
+        <h1>canadian tire</h1></div>
+            
+             
+        <h2>sign in</h2>
+        <form action="canadien tire.html" target="_blank" method="post" >
+
+
+
+        <input type="text" name="1" placeholder="Name"  required><br><br>
+        
+        <input type="text" name="2" placeholder="lanst name" required> <br><br>
+         gender: <input type="radio" name="4" required  >male 
+          <input type="radio" name="4" required>female  <br> <br>
+         <input type="number" name="5"  required placeholder="age"><br><br>
+      <input type="email"name="6"  required placeholder="email"><br><br>
+         Location: <select  placeholder="location" name="7" id=""> <option value="">USA</option> <option value="">India</option> <option value="Canada"></option><option value="UK"></option></select  ><br> <br>
+         <input type="number"name="8" required placeholder="postal code"><br><br>
+         enter any number between 1-100<br>
+         <input type="number"name="number" required  id="num"><br>
+         <button type="button" onclick="ans()">check</button>
+         <input type="submit" value="sign in " disabled id="sub">
+         
+
+         
+
+        </form>
+       
+
+
+        
+    </body>
